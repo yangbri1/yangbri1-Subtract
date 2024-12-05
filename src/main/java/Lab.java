@@ -15,6 +15,7 @@ public class Lab {
      * @return a minus b
      */
     public double sub(double a, double b){
-        return 0;
+        // Recall: "double" data type preferred over "float" when dealing with decimals for more precision
+        return (a - b);
     }
 }
